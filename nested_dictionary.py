@@ -9,6 +9,11 @@ Source:
      
      
 '''
+def get_age1(dict1):
+    for i in dict1:
+        #if type(i) == dict1 :
+            print(i,dict1[i]) 
+
 
 def startpy():
     nest_dict = {
@@ -20,11 +25,13 @@ def startpy():
         },
         "list2"     : [4,5,6],
         "dict2"     : {
-            "vedha"       :18,
-            "deeksha"     :21
+            "vedha"    :18,
+            "age1"     :21
         }
     }
-    print(nest_dict)
+    
+    get_age1(nest_dict)
+   # print(nest_dict)
  
 
 
