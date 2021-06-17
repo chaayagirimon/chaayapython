@@ -21,8 +21,23 @@ def get_merged_list(list1, list2):
 
 def startpy():
 
-    list1 = ["jupiter","prakash","ram","raju","bruno",2.3]
-    list2 = [2.3,"jupiter","mars","mercury","venus",134340,"saturn"]
+    list1 = [
+        "jupiter",
+        "prakash",
+        "ram",
+        "raju",
+        "bruno",
+        2.3
+    ]
+    list2 = [
+        2.3,
+        "jupiter",
+        "mars",
+        "mercury",
+        "venus",
+        134340,
+        "saturn"
+    ]
     combined_list = get_merged_list(list1, list2)   
     print(combined_list)
 
